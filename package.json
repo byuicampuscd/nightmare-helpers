@@ -1,0 +1,26 @@
+{
+  "name": "nightmare-helpers",
+  "version": "1.0.0",
+  "description": "Adds helper functions to the nightmare object",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byuicampuscd/nightmare-helpers.git"
+  },
+  "keywords": [
+    "nightmare",
+    "helper"
+  ],
+  "author": "Joshua McKinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byuicampuscd/nightmare-helpers/issues"
+  },
+  "homepage": "https://github.com/byuicampuscd/nightmare-helpers#readme",
+  "dependencies": {
+    "nightmare": "^2.8.1"
+  }
+}
