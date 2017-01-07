@@ -3,7 +3,7 @@ Adds helper functions to the nightmare object
 
 ## Install
 ````
-npm i https://github.com/byuicampuscd/nightmare-helpers.git -save
+npm i https://github.com/byuicampuscd/nightmare-helpers.git --save
 ````
 ## Use
 This module needs to ran before nightmare is used so that the prototype can be added to.
