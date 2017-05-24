@@ -14,13 +14,13 @@
     "nightmare",
     "helper"
   ],
-  "author": "Joshua McKinney",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/byuicampuscd/nightmare-helpers/issues"
   },
   "homepage": "https://github.com/byuicampuscd/nightmare-helpers#readme",
   "dependencies": {
     "nightmare": "^2.8.1"
-  }
+  },
+  "author": "Joshua McKinney",
+  "license": "MIT"
 }
