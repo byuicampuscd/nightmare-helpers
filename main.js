@@ -1,6 +1,5 @@
 /* eslint-env node, browser */
 /* eslint no-console:0 */
-
 module.exports = function (Nightmare) {
     //this is what the nightmare.use function does so I figured it would work and it does
     Nightmare.prototype.waitURL = function (url) {
@@ -41,24 +40,25 @@ module.exports = function (Nightmare) {
         return this;
     }
 
-    /* This is an example of how to pass in and recive data
+    //This is an example of how to pass in and recive data
+    /*
     Nightmare.action('printJAM', function (name, options, parent, win, renderer, done) {
-        console.log(name);
-        parent.respondTo('printJAM', function (words, done) {
-            //document.querySelector('h1').innerHTML = words;
-            console.log("electron scope: " + words);
-            done(null, words);
+            console.log(name);
+            parent.respondTo('printJAM', function (words, done) {
+                //document.querySelector('h1').innerHTML = words;
+                console.log("electron scope: " + words);
+                done(null, words);
 
-        });
-        done();
-    },
-    function (words, done) {
-        console.log("words1: " + words);
-        //console.log(this);
-        this.child.call('printJAM', words, done);
-        return this;
-    }
-);
-    
+            });
+            done();
+        },
+        function (words, done) {
+            console.log("words1: " + words);
+            //console.log(this);
+            this.child.call('printJAM', words, done);
+            return this;
+        }
+    );
     */
 }
+
