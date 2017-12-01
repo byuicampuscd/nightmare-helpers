@@ -21,7 +21,7 @@ module.exports = function (Nightmare) {
         var timeOut = min + sec + ms;
         this.options.waitTimeout = timeOut;
 
-        console.log('Set wait timeout to:', timeOut);
+        //console.log('Set wait timeout to:', timeOut);
 
         done();
     });
